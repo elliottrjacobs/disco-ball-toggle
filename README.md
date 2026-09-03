@@ -2,9 +2,9 @@
 
 A canvas-rendered disco ball animation and theme toggle for React.
 
-![Disco Ball Toggle demo](./demo/disco-ball-toggle-demo.jpg)
+https://github.com/user-attachments/assets/26a46bdd-03ce-4d51-a661-b66386bdccdd
 
-[Watch the MP4 demo](./demo/disco-ball-toggle-demo.mp4)
+[Download the MP4 demo](./demo/disco-ball-toggle-demo.mp4)
 
 ## Features
 
