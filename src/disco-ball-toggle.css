@@ -1,0 +1,32 @@
+/* Disco ball (posters page dark mode) */
+:root {
+  --disco-r: clamp(56px, 9vmin, 88px);
+  --disco-y: min(calc(268px + var(--disco-r)), 50vh);
+}
+
+@keyframes disco-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes disco-twinkle {
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+.disco-beams {
+  animation: disco-spin 40s linear infinite;
+  will-change: transform;
+}
+
+.disco-sparkle {
+  animation: disco-twinkle 3s ease-in-out infinite;
+}
