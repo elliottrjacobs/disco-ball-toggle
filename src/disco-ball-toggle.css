@@ -1,4 +1,3 @@
-/* Disco ball (posters page dark mode) */
 :root {
   --disco-r: clamp(56px, 9vmin, 88px);
   --disco-y: min(calc(268px + var(--disco-r)), 50vh);
